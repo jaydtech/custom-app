@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "6a1b1f8d3bd984c1f792b8eb75e7e963"
+name = "live-app"
+handle = "live-app-6"
+application_url = "https://tapes-colour-retired-edgar.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "jaydeep-dev-store.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://tapes-colour-retired-edgar.trycloudflare.com/auth/callback",
+  "https://tapes-colour-retired-edgar.trycloudflare.com/auth/shopify/callback",
+  "https://tapes-colour-retired-edgar.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+[pos]
+embedded = false
