@@ -107,7 +107,7 @@ export default function Index() {
 
   return (
     <Page>
-      <TitleBar title="Remix app template 123">
+      <TitleBar title="Remix app template">
         <button variant="primary" onClick={generateProduct}>
           Generate a product
         </button>
