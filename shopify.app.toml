@@ -3,7 +3,7 @@
 client_id = "6a1b1f8d3bd984c1f792b8eb75e7e963"
 name = "live-app"
 handle = "live-app-6"
-application_url = "https://tapes-colour-retired-edgar.trycloudflare.com"
+application_url = "https://lime-johns-sie-rfc.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://tapes-colour-retired-edgar.trycloudflare.com/auth/callback",
-  "https://tapes-colour-retired-edgar.trycloudflare.com/auth/shopify/callback",
-  "https://tapes-colour-retired-edgar.trycloudflare.com/api/auth/callback"
+  "https://lime-johns-sie-rfc.trycloudflare.com/auth/callback",
+  "https://lime-johns-sie-rfc.trycloudflare.com/auth/shopify/callback",
+  "https://lime-johns-sie-rfc.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
