@@ -2,8 +2,9 @@ import React from "react";
 import { Button } from "@shopify/polaris";
 
 export default function Index() {
-  function test(){
-    alert('Button clicked');
+  function test(event){
+   // alert('Button clicked');
+    event.target.style.color = 'red';
   }
   return (
     <>
