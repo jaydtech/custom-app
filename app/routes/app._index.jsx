@@ -1,9 +1,10 @@
 import React from "react";
+import { Button } from "@shopify/polaris";
 
 export default function Index() {
   return (
     <>
-      <h1>Hello from live app 1</h1>
+      <Button>Click here</Button>
     </>
   );
 }
