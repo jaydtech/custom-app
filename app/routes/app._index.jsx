@@ -2,9 +2,12 @@ import React from "react";
 import { Button } from "@shopify/polaris";
 
 export default function Index() {
+  function test(){
+    alert('Button clicked');
+  }
   return (
     <>
-      <Button>Click here</Button>
+      <Button onClick={test}>Click here</Button>
     </>
   );
 }
